@@ -1,6 +1,0 @@
-##fileformat=VCFv4.2
-##fileDate=20240101
-##source="MySeedRepositoryGenerator"
-##reference=file://chrM.fa
-##contig=<ID=chrM,length=16569>
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
