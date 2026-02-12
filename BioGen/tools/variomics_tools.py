@@ -40,8 +40,6 @@ def align_reads_bwa(reference_fasta: str, reads_r1_fastq: str, reads_r2_fastq: s
     sam_path = os.path.join(WORKSPACE_DIR, "aligned_reads.sam")
     bam_path = os.path.join(WORKSPACE_DIR, "aligned_reads.bam")
     sorted_bam_path = os.path.join(WORKSPACE_DIR, "aligned_reads.sorted.bam")
-
-    # BWA-MEM 比对
     with open(sam_path, "w") as f_sam:
         cmd_bwa = ["conda", "run", "-n", "bio_agent_env", "bwa", "mem", "-t", "4", reference_fasta, reads_r1_fastq, reads_r2_fastq]
         result = subprocess.run(cmd_bwa, stdout=f_sam, stderr=subprocess.PIPE, text=True)
