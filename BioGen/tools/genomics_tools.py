@@ -2,8 +2,8 @@ import subprocess
 import os
 from langchain.tools import tool
 
-WORKSPACE_DIR = "/home/houyufei/yfhou/biotoolbenchmark/BioGen_Data/workspace"
-SEED_REPO_DIR = "/home/houyufei/yfhou/biotoolbenchmark/BioGen_Data/bio_seeds"
+WORKSPACE_DIR = "./workspace"
+SEED_REPO_DIR = "./bio_seeds"
 
 @tool
 def get_seed_file_path(filepath: str) -> str:
