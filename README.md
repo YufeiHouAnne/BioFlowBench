@@ -49,7 +49,7 @@ BioFlowBench assesses models across four critical dimensions:
 | --- | --- | --- | --- |
 | **Module 1** | `Dataset/Syntax_Understanding.json` | Single Choice | Tests tool definitions, parameters, and version sensitivity. |
 | **Module 2** | `Dataset/Contextual_Application.json` | Fill-in-the-Blank | Tests the ability to apply tools in specific biological contexts. |
-| **Module 3** | `BioGen` | Workflow | Executable shell commands and validation scripts. |
+| **Module 3** | `BioGen` | Workflow Test | Measuresthe ability to generate and execute complete bioinformatics workflows in a real shell environment. |
 
 The **BioGen** pipeline relies on a structured data repository located in the `BioGen` directory. This organization ensures that the agent can autonomously retrieve seeds, invoke tools, and construct workflows based on the **BioKG** (Bioinformatics Knowledge Graph).
 
