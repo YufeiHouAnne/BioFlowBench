@@ -1,6 +1,6 @@
 # BioFlowBench: A Comprehensive Benchmark for Evaluating Bioinformatics Tool-use Capabilities of LLMs and Agents
 
-### [🌐 Website](https://yufeihouanne.github.io/BioFlowBench.github.io/)
+### [🌐 Website](https://yufeihouanne.github.io/BioFlowBench.github.io/) [💾 Dataset](https://huggingface.co/datasets/HouAnne/BioFlowBench)
 ## 🧬 Overview
 
 BioFlowBench is the first multi-layered benchmark designed to rigorously evaluate the bioinformatics tool-use capabilities of Large Language Models (LLMs) and agent frameworks. By leveraging a massive bioinformatics knowledge graph and automated data generation, BioFlowBench bridges the gap between static knowledge and real-world scientific execution.
